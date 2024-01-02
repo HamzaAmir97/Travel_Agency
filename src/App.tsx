@@ -7,11 +7,12 @@ function App() {
   return (
     <>
    {/* <Navbar /> */}
-     <div className='flex flex-col  items-center h-screen'>
-      <Navbar />
-     <h1 className=' flex-1 text-3xl  text-orange-500 shadow-lg shadow-orange-500/50S font-bold underline'>Hello World</h1>
-     
-     </div>
+   <div className="nav flex flex-row">
+  <div className="basis-3xs w-100px h-100px bg-red-500">01</div>
+  <div className="basis-2xs w-100px h-100px bg-blue-500">02</div>
+  <div className="basis-xs w-100px h-100px bg-green-500">03</div>
+  <div className="basis-sm w-100px h-100px bg-yellow-500">04</div>
+</div>
     </>
   )
 }
