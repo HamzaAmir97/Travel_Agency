@@ -1,7 +1,12 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
-
+#root {
+  max-width: fit-content;
+  margin: 0 ;
+ align-items: center;
+  
+}
 
 .logo {
   height: 6em;

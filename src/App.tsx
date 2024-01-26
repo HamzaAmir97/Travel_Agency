@@ -7,8 +7,11 @@ function App() {
   return (
     <>
    {/* <Navbar /> */}
+     <div className='flex flex-col  items-center h-screen'>
+      <Navbar />
+     <h1 className=' flex-1 text-3xl  text-orange-500 shadow-lg shadow-orange-500/50S font-bold underline'>Hello World</h1>
      
-     <h1>Hello World</h1>
+     </div>
     </>
   )
 }
