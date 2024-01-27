@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-   {/* <Navbar /> */}
+   <Navbar />
    <div className="nav flex flex-row">
   <div className="basis-3xs w-100px h-100px bg-red-500">01</div>
   <div className="basis-2xs w-100px h-100px bg-blue-500">02</div>
