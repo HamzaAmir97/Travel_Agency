@@ -6,14 +6,25 @@ function App() {
 
   return (
     <>
-   <Navbar />
-   <div className="nav flex flex-row">
-  <div className="basis-3xs w-100px h-100px bg-red-500">01</div>
-  <div className="basis-2xs w-100px h-100px bg-blue-500">02</div>
-  <div className="basis-xs w-100px h-100px bg-green-500">03</div>
-  <div className="basis-sm w-100px h-100px bg-yellow-500">04</div>
-</div>
+      <section className="relative py-20 md:py-32 overflow-hidden">
+        <div className="container relative z-10">
+          
+            <div className="flex flex-col items-center text-center">
+              <h1 className="text-4xl md:text-6xl font-bold mb-6">
+                مرحباً، أنا 
+              </h1>
+              <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl">
+                كل فكرة أرسمها، هي بداية قصة تُروى للعالم بدون كلمات
+
+              </p>
+              
+           
+        </div>
+  </div>
+      </section>
+
     </>
+
   )
 }
 
