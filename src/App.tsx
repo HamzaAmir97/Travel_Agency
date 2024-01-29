@@ -1,12 +1,21 @@
 import { useState } from 'react'
 import './App.css'
-import Navbar from './components/Navbar'
+
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
-      <section className="relative py-20 md:py-32 overflow-hidden">
+    
+      <head>
+        <title>Travel Agency</title>
+        <meta name="color-scheme" content="light dark" />
+      </head>
+  
+
+    <body>
+
+      <section className="center py-20 md:py-32 overflow-hidden">
         <div className="container relative z-10">
           
             <div className="flex flex-col items-center text-center">
@@ -21,7 +30,11 @@ function App() {
            
         </div>
   </div>
+
+
       </section>
+
+      </body>
 
     </>
 
