@@ -15,10 +15,10 @@ function App() {
 
     <body>
 
-      <section className="center py-20 md:py-32 overflow-hidden">
+      <section className="flex  justify-center py-20 md:py-32 overflow-hidden">
         <div className="container relative z-10">
           
-            <div className="flex flex-col items-center text-center">
+            <div className=" text-center">
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
                 مرحباً، أنا 
               </h1>
