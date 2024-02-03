@@ -14,7 +14,7 @@ function App() {
 
 
       <body>
-      <div    className ="flex h-screen bg-red-100    ">
+      <div    className ="flex flex-row w-full h-screen bg-red-500    ">
   <div className  ="w-14 flex-none ...">01</div>
   <div className="w-64 flex-initial ...">02</div>
   <div className="w-32 flex-initial ...">03</div>
