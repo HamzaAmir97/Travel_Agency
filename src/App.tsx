@@ -14,10 +14,10 @@ function App() {
 
 
       <body>
-      <div    className ="flex flex-row w-full h-screen bg-red-500    ">
-  <div className  ="w-14 flex-none ...">01</div>
-  <div className="w-64 flex-initial ...">02</div>
-  <div className="w-32 flex-initial ...">03</div>
+      <div className="w-full flex flex-row justify-center h-screen bg-red-500">
+  <div className="flex-1 bg-blue-500">01</div>
+  <div className="flex-1 bg-green-500">02</div>
+  <div className="flex-1 bg-yellow-500">03</div>
 </div>
 
 
