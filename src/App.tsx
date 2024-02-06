@@ -1,4 +1,5 @@
   import { useState } from 'react'
+  import { PlusIcon } from '@heroicons/react/24/outline'
   import './App.css'
 
   function App() {
@@ -18,12 +19,15 @@
           <div className="flex justify-center  h-screen w-screen m-auto bg-red-500">
             <div className="flex flex-col gap-0">
 
-              <div className="w-screen grid sm:grid-cols-2 md:grid-cols-4 gap-4  h-1/4 bg-blue-500 text-white text-center">
+              <div className="w-screen grid gap-0 lg:grid-cols-2 sm:grid-cols-1    h-1/4 bg-blue-500 text-white text-center">
 
-              <div className="bg-yellow-500">01</div>
+              <div className="bg-yellow-500">
+                
+                <PlusIcon className="w-10 h-10" />
+              </div>
               <div className="bg-purple-500">02</div>
-              <div className="bg-pink-500">03</div>
-              <div className="bg-orange-500">04</div>
+              
+            
              
 
               </div>
