@@ -21,9 +21,9 @@
 
               <div className="w-screen grid gap-0 lg:grid-cols-2 sm:grid-cols-1    h-1/4 bg-blue-500 text-white text-center">
 
-              <div className="bg-yellow-500">
+              <div className="flex justify-center items-center bg-yellow-500">
                 
-                <PlusIcon className="w-10 h-10" />
+                <PlusIcon className="w-10 h-10 border  border-r-4 border-indigo-500 hover:bg-fuchsia-600" />
               </div>
               <div className="bg-purple-500">02</div>
               
