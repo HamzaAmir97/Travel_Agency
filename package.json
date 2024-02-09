@@ -12,6 +12,7 @@
   "dependencies": {
     "@heroicons/react": "^2.2.0",
     "@tailwindcss/vite": "^4.1.6",
+    "animate.css": "^4.1.1",
     "daisyui": "^5.0.35",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
