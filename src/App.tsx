@@ -26,7 +26,7 @@ function App() {
                                ">
 
                   <h1>Add</h1>
-                  <PlusIcon className=" transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 absolute top-0 left-0  float-right animate__bounce w-10 h-10 border  border-r-4 border-indigo-500 hover:bg-fuchsia-600" />
+                  <PlusIcon className=" transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 absolute top-0 left-0  float-right hover:animate-bounce w-10 h-10 border  border-r-4 border-indigo-500 hover:bg-fuchsia-600" />
                 </span>
 
               </div>
