@@ -3,3 +3,6 @@
 @import "animate.css";
 
 
+.animate__animated.animate__bounce {
+  animation-delay: 0.3s;
+}

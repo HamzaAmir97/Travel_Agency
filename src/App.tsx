@@ -22,11 +22,11 @@ function App() {
             <div className="w-screen grid gap-0 lg:grid-cols-2 sm:grid-cols-1    h-1/4 bg-blue-500 text-white text-center">
 
               <div className="flex justify-center items-center bg-yellow-500">
-                <span className="border w-1/2 h-2/4  relative border-r-5 border-green-500  rounded-lg drop-shadow-xs
+                <span className="border w-1/2 h-2/4 animate__animated animate__bounceInDown relative border-r-5 border-green-500  rounded-lg drop-shadow-xs
                                ">
 
-                  <h1>Add</h1>
-                  <PlusIcon className=" transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 absolute top-0 left-0  float-right hover:animate-bounce w-10 h-10 border  border-r-4 border-indigo-500 hover:bg-fuchsia-600" />
+                  <h1 className='animate__animated animate__jello'>Add</h1>
+                  <PlusIcon className=" transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 absolute top-0 left-0  float-right animate__animated animate__bounce w-10 h-10 border  border-r-4 border-indigo-500 hover:bg-fuchsia-600" />
                 </span>
 
               </div>
