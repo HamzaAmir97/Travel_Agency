@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 import { PlusIcon } from '@heroicons/react/24/outline'
 import './App.css'
 
@@ -15,8 +15,8 @@ function App() {
 
 
       <body>
-
-        <div className="flex justify-center  h-screen w-screen m-auto bg-red-500">
+     
+        <div className="flex justify-center   h-screen w-screen m-auto bg-red-500">
           <div className="flex flex-col gap-0">
 
             <div className="w-screen grid gap-0 lg:grid-cols-2 sm:grid-cols-1    h-1/4 bg-blue-500 text-white text-center">
