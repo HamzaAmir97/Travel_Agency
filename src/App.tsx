@@ -1,6 +1,7 @@
 
 import { PlusIcon } from '@heroicons/react/24/outline'
 import './App.css'
+import Navbar from './components/Navbar'
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
 
 
       <body>
-     
+        <Navbar />
         <div className="flex justify-center   h-screen w-screen m-auto bg-red-500">
           <div className="flex flex-col gap-0">
 
