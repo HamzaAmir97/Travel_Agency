@@ -14,16 +14,17 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="bg-white shadow-md fixed w-full top-0 z-50">
-      <div className="container mx-auto px-4 py-4 flex justify-between items-center">
+    <div className="bg-white shadow-md sticky w-full  top-0 z-50">
+      <div className="container w-screen  px-4 py-4 flex  bg-blue-200  justify-start items-center">
         {/* Logo */}
-        <div className="flex items-center gap-2">
+        <div className="flex justify-self-center  bg-red-200  gap-1">
           <img src={logo} alt="Cheeseter Logo" className="h-8" />
           <span className="text-xl font-bold text-red-600">Cheeseter</span>
         </div>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex items-center gap-6">
+
+        <nav className="hidden md:flex  md:   bg-red-600 gap-6">
           {navLinks.map((link) => (
             <a
               key={link.label}
