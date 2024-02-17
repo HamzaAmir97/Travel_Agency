@@ -18,7 +18,7 @@ function App() {
 
       <body>
       
-        <div className="flex justify-center   relative  h-screen w-screen m-auto">
+        <div className="flex justify-center overflow-hidden  relative  h-screen w-screen m-auto">
               <GradientBackground />
           <div className="flex flex-col relative  gap-0">
 

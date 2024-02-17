@@ -1,80 +1,26 @@
-import React, { useState } from "react";
-import { Menu, X } from "lucide-react"; // أيقونات من مكتبة lucide-react
-import logo from "../../public/1.webp"; // عدّل المسار حسب الصورة
 
-const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+import { Button, Navbar, NavbarBrand, NavbarCollapse, NavbarLink, NavbarToggle } from "flowbite-react";
 
-  const toggleMenu = () => setIsOpen(!isOpen);
-
-  const navLinks = [
-    { label: "Menu", href: "#menu" },
-    { label: "About", href: "#about" },
-    { label: "Contact", href: "#contact" },
-  ];
-
+export function Component() {
   return (
-    <div className="bg-white shadow-md sticky w-full  top-0 z-50">
-      <div className="container w-screen  px-4 py-4 flex  bg-blue-200  justify-start items-center">
-        {/* Logo */}
-        <div className="flex justify-self-center  bg-red-200  gap-1">
-          <img src={logo} alt="Cheeseter Logo" className="h-8" />
-          <span className="text-xl font-bold text-red-600">Cheeseter</span>
-        </div>
-
-        {/* Desktop Nav */}
-
-        <nav className="hidden md:flex  md:   bg-red-600 gap-6">
-          {navLinks.map((link) => (
-            <a
-              key={link.label}
-              href={link.href}
-              className="text-gray-700 hover:text-red-600 transition"
-            >
-              {link.label}
-            </a>
-          ))}
-          <a
-            href="#order"
-            className="ml-4 bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition"
-          >
-            Order Now
-          </a>
-        </nav>
-
-        {/* Mobile Button */}
-        <button
-          onClick={toggleMenu}
-          className="md:hidden text-red-600 focus:outline-none"
-        >
-          {isOpen ? <X size={28} /> : <Menu size={28} />}
-        </button>
+    <Navbar fluid rounded>
+      <NavbarBrand href="https://flowbite-react.com">
+        <img src="/favicon.svg" className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" />
+        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Flowbite React</span>
+      </NavbarBrand>
+      <div className="flex md:order-2">
+        <Button>Get started</Button>
+        <NavbarToggle />
       </div>
-
-      {/* Mobile Menu */}
-      {isOpen && (
-        <div className="md:hidden bg-white shadow-md px-6 py-4 space-y-4">
-          {navLinks.map((link) => (
-            <a
-              key={link.label}
-              href={link.href}
-              className="block text-gray-700 hover:text-red-600 transition"
-              onClick={toggleMenu}
-            >
-              {link.label}
-            </a>
-          ))}
-          <a
-            href="#order"
-            className="block bg-red-600 text-white px-4 py-2 rounded text-center hover:bg-red-700 transition"
-            onClick={toggleMenu}
-          >
-            Order Now
-          </a>
-        </div>
-      )}
-    </div>
+      <NavbarCollapse>
+        <NavbarLink href="#" active>
+          Home
+        </NavbarLink>
+        <NavbarLink href="#">About</NavbarLink>
+        <NavbarLink href="#">Services</NavbarLink>
+        <NavbarLink href="#">Pricing</NavbarLink>
+        <NavbarLink href="#">Contact</NavbarLink>
+      </NavbarCollapse>
+    </Navbar>
   );
-};
-
-export default Navbar;
+}
