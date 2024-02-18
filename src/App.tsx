@@ -4,6 +4,7 @@ import './App.css'
 
 import TypingAnimatedText from './components/TypingText'
 import GradientBackground from './components/GradientBackground'
+import { Navbar } from 'flowbite-react'
 function App() {
 
 
@@ -17,7 +18,7 @@ function App() {
 
 
       <body>
-      
+      <Navbar />
         <div className="flex justify-center overflow-hidden  relative  h-screen w-screen m-auto">
               <GradientBackground />
           <div className="flex flex-col relative  gap-0">
