@@ -1,10 +1,9 @@
 
 import { PlusIcon } from '@heroicons/react/24/outline'
 import './App.css'
-
 import TypingAnimatedText from './components/TypingText'
 import GradientBackground from './components/GradientBackground'
-import { Navbar } from 'flowbite-react'
+import Navbar from './components/Navbar'
 function App() {
 
 
@@ -17,10 +16,11 @@ function App() {
       </head>
 
 
-      <body>
+      <body className='relative'>
+      <GradientBackground />
       <Navbar />
-        <div className="flex justify-center overflow-hidden  relative  h-screen w-screen m-auto">
-              <GradientBackground />
+        <div className="flex justify-center overflow-hidden    h-screen w-screen m-auto">
+              
           <div className="flex flex-col relative  gap-0">
 
             <div className="w-screen grid gap-0 lg:grid-cols-2 sm:grid-cols-1    h-1/4  text-white text-center">

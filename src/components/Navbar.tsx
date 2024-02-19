@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-function NavItem({ text, onClick }) {
+function NavItem({ text, onClick }: { text: string; onClick: () => void }) {
   return (
     <div className="justify-center py-2 cursor-pointer" onClick={onClick}>
       {text}
@@ -23,7 +23,7 @@ function HarmonyNav() {
         const response = await fetch("/api/navItems");
         const data = await response.json();
         setNavItems(
-          data.map((item) => ({
+          data.map((item: any) => ({
             ...item,
             onClick: () => alert(`Navigate to ${item.text}`),
           })),
@@ -37,7 +37,7 @@ function HarmonyNav() {
   }, []);
 
   return (
-    <div className="flex gap-5 justify-between items-center py-1.5 px-6 rounded-3xl backdrop-blur-[17.5px] bg-opacity-80 w-full max-w-full flex-wrap sm:flex-nowrap sm:py-4 sm:px-10 bg-[#ffffffff]">
+    <div className="sticky top-0 z-10 flex gap-5 justify-between items-center py-1.5 px-6 rounded-2xl backdrop-blur-[100.5px] bg-opacity-10 w-full max-w-full flex-wrap sm:flex-nowrap sm:py-4 sm:px-10 ">
       <div className="flex gap-2 justify-between items-center py-1.5 my-auto w-full sm:w-auto">
         <div className="flex justify-center items-center px-0.5">
           <img
