@@ -4,6 +4,7 @@ import './App.css'
 import TypingAnimatedText from './components/TypingText'
 import GradientBackground from './components/GradientBackground'
 import Navbar from './components/Navbar'
+import HeroSection from './components/herosection'
 function App() {
 
 
@@ -17,6 +18,9 @@ function App() {
 
 
       <body className='relative'>
+
+            {/* <HeroSection />
+
       <GradientBackground />
       <Navbar />
         <div className="flex justify-center overflow-hidden    h-screen w-screen m-auto">
@@ -56,7 +60,7 @@ function App() {
 
 
           </div>
-        </div>
+        </div> */}
 
 
       </body>
