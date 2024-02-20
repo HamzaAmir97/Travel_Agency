@@ -17,10 +17,10 @@ function App() {
       </head>
 
 
-      <body className='relative'>
+      <body className=''>
 
-            {/* <HeroSection />
-
+           <HeroSection />
+ {/* 
       <GradientBackground />
       <Navbar />
         <div className="flex justify-center overflow-hidden    h-screen w-screen m-auto">
