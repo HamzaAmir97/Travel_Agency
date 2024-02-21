@@ -20,9 +20,11 @@ function App() {
       <body className=''>
 
            <HeroSection />
+
+           <Navbar />
  {/* 
       <GradientBackground />
-      <Navbar />
+     
         <div className="flex justify-center overflow-hidden    h-screen w-screen m-auto">
               
           <div className="flex flex-col relative  gap-0">
