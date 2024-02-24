@@ -12,7 +12,7 @@ const HeroSection = () => {
             </motion.div>
 
             <motion.div className="max-h-1/2  h-full w-full flex flex-col  justify-center items-center bg-blue-500">
-                <img src={"1.png"} alt="piza"  className=" bg-red-500  w-1/2  h-90 rotate-12 object-cover"/> 
+                <img src={"1.png"} alt="piza"  className=" bg-red-500  size-24 p-10 rotate-12 object-cover"/> 
 
             </motion.div>
         </div>
